@@ -1,0 +1,20 @@
+
+<form name="new-info" ng-submit="add.addInfo(info)">
+  <p class="control">
+    <input name="name" type="text" placeholder="Name"
+           ng-model="info.name" />
+  </p>
+  <p class="control">
+    <input name="email" type="text" placeholder="Email"
+           ng-model="info.email" />
+  </p>
+  <p class="control">
+    <input name="phone" type="text" placeholder="Phone"
+           ng-model="info.phone" />
+  </p>
+  <p class="control">
+    <input name="area" type="text" placeholder="City, State"
+           ng-model="info.area" />
+  </p>
+  <button class="button is-primary">Add Info</button>
+</form>
