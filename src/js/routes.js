@@ -17,6 +17,12 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
 			url: '/add',
 			templateUrl: 'templates/add.tpl.html',
 			controller: 'AddController as add'
+		})
+
+		.state('root.single',{
+			url: '/single',
+			templateUrl: 'templates/single.tpl.html',
+			controller: 'SingleController as single'
 		});
 
 

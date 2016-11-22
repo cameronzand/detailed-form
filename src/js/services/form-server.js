@@ -7,6 +7,9 @@ function FormService ($http) {
     return $http.post(SERVER, info);
   };
 
+    this.allInfos = function () {
+    return $http.get(SERVER);
+  };
 
 };
 
