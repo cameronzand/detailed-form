@@ -1,9 +1,71 @@
-.namewrapper {
-    width: 800px;
-    margin: 25px auto;
+@import 'bulma';
 
+.main-content {
+	margin-top: 30px;
+}
+
+.contactimagecenter {
+	margin-left: 510px;
+}
+
+.namewrapper {
+    width: 300px;
+    margin: auto;
+
+}
+
+.addleft {
+	margin-left: 530px;
+	margin-top: 20px;
 }
 
 nav {
 	text-align: center;
+
+}
+
+.navspace {
+	margin-left: 25px;
+
+}
+
+.personicon {
+	height: 20px;
+	width: 20px;
+}
+
+.homename {
+	position: absolute;
+	margin-left: 10px;
+	// border-bottom: 1px dotted black;
+}
+
+.sepname {
+	//position: absolute;
+	border-bottom: 1px dotted black;
+}
+
+.contactspng {
+	height: 200px;
+	width: 200px;
+}
+
+.backpng {
+	height: 50px;
+	width: 50px;
+	margin-left: 120px;
+}
+
+.underline {
+
+	border: 1px solid lightgrey;
+	padding: 10px;
+}
+
+.card {
+	border-radius: 25px;
+}
+
+.round {
+	border-radius: 25px;
 }

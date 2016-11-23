@@ -1,11 +1,18 @@
 <div class="namewrapper">
-	<h1 class="title">Contacts</h1>
+	
 
 
 
 	<ul class="information">
+
    		 <li ng-repeat="info in home.infos">
-   			<span class="bold">Name:</span> {{info.name}} <br>
+   		 <a href="#/info/{{ info._id }}">
+   			<span class="bold"></span>
+   				<div class="sepname">
+   			<img src="images/personicon.png" class="personicon" /><span class="homename">{{info.name}}</span> <br>
+   				</div>
+   		 </a>
     	 </li>
 	</ul>
+
 </div>

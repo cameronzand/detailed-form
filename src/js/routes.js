@@ -20,7 +20,7 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
 		})
 
 		.state('root.single',{
-			url: '/single',
+			url: '/info/:id',
 			templateUrl: 'templates/single.tpl.html',
 			controller: 'SingleController as single'
 		});
