@@ -64,8 +64,20 @@ nav {
 
 .card {
 	border-radius: 25px;
+	height: 300px;
 }
 
 .round {
-	border-radius: 25px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.backgroundchange:hover {
+	background: #33ecff;
+	color: white;
+}
+
+.fa {
+	margin-right: 5px;
+	margin-top: 3px;
 }

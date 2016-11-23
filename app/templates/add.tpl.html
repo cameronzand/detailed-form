@@ -2,19 +2,19 @@
 <form class="namewrapper addleft" name="new-info" ng-submit="add.addInfo(info)">
   <p class="control">
     <input name="name" type="text" placeholder="Name"
-           ng-model="info.name" />
+           ng-model="info.name" required/>
   </p>
   <p class="control">
     <input name="email" type="text" placeholder="Email"
-           ng-model="info.email" />
+           ng-model="info.email" required />
   </p>
   <p class="control">
     <input name="phone" type="text" placeholder="Phone"
-           ng-model="info.phone" />
+           ng-model="info.phone" required />
   </p>
   <p class="control">
     <input name="area" type="text" placeholder="City, State"
-           ng-model="info.area" />
+           ng-model="info.area" required />
   </p>
   <button class="button is-primary">Add Info</button>
 </form>
